@@ -1,0 +1,44 @@
+{
+  "entrees": [
+    { "id": 1, "name": "carpaccio de boeuf ", "price": 12 },
+    { "id": 2, "name": "ceviche de daurade", "price": 15 },
+    { "id": 3, "name": "oeuf parfait & hollandaise", "price": 14 },
+    { "id": 4, "name": "croque truffe béchamel comté", "price": 12 },
+    { "id": 5, "name": "Mont d'Or au four ", "price": 11 }
+  ],
+  "plats": [
+    { "id": 1, "name": "Risotto aux cèpes", "price": 19 },
+    { "id": 2, "name": "Tataki de thon rouge", "price": 11 },
+    { "id": 3, "name": "Linguini aux palourdes", "price": 14 },
+    { "id": 4, "name": "Osso bucco à la milanaise", "price": 22 },
+    { "id": 5, "name": "Cote de boeuf à la florentine", "price": 39 }
+  ],
+  "desserts": [
+    { "id": 1, "name": "Tiramisù Traditionnel au café ", "price": 8 },
+    { "id": 2, "name": "Sfogliatella napolitaine", "price": 9 },
+    { "id": 3, "name": "Babà au rhum, crème orange Cointreau", "price": 10 },
+    { "id": 4, "name": "Coulant chocolat, coeur fruit rouge", "price": 7 },
+    { "id": 5, "name": "Paris-Brest à la pistache", "price": 6 }
+  ],
+  "boissons": [
+    { "id": 1, "name": "Perrier", "price": 2 },
+    { "id": 2, "name": "Coca-Cola", "price": 2 },
+    { "id": 3, "name": "Mojito", "price": 8 },
+    { "id": 4, "name": "Whisky", "price": 4 },
+    { "id": 5, "name": "Bière", "price": 3 }
+  ],
+  "tapas": [
+    { "id": 1, "name": "Arancino", "price": 6 },
+    { "id": 2, "name": "Fritto Misto", "price": 8 },
+    { "id": 3, "name": "Cornet de frites maison", "price": 4 },
+    { "id": 4, "name": "Planche de charcuterie", "price": 20 },
+    { "id": 5, "name": "Planche assortiments de fromage", "price": 18 }
+  ],
+  "vins": [
+    { "id": 1, "name": "Blanc, Montbazillac", "price": 22 },
+    { "id": 2, "name": "Blanc, Muscat Sec", "price": 19 },
+    { "id": 3, "name": "Rouge, Pic St-Loup", "price": 25 },
+    { "id": 4, "name": "Rosé, Côtes-de-Provence", "price": 21 },
+    { "id": 5, "name": "Champagne, Moët & Chandon", "price": 70 }
+  ]
+}
