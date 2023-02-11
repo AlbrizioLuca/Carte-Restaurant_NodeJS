@@ -17,10 +17,10 @@ Pour pouvoir executer l'ensemble de ces fonctions, les librairies utilisées son
 
 | Librairie | Version | Raison |
 | :-------- | :------ | -----: |
-| Express|| Manipulation des requetes et réponses|
-|BodyParser|| Afficher en bonne et due forme les données renseignées dans le body lors de la phase de requete |
-|fs|| Manipulation et lecture des fichiers json|
-|nodemonn|| Créer un LiveReload afin de relancer le serveur automatiquement à chaque manipulation |
+| Express | 4.18.2 | Manipulation des requetes et réponses|
+| BodyParser | 1.20.1 | Afficher en bonne et due forme les données renseignées dans le body lors de la phase de requete |
+|fs| 0.0.1-security | Manipulation et lecture des fichiers json|
+|nodemonn| 2.0.20 | Créer un LiveReload afin de relancer le serveur automatiquement à chaque manipulation |
 
 Les routes utilisées sont:
 
