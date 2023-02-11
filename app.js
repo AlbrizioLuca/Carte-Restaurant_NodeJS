@@ -35,42 +35,36 @@ app.get('/carte', (request,response) =>{
 
 
 // Déclarer constante dans laquelle on va rassembler les routes liées au tableau 'entrees'
-const entreesRoutes = require("./src/routes/entrees_route");
+const roadToStarters = require("./src/routes/route_entrees");
+// Utiliser les routes liées au tableau 'entrees' du fichier carte.json
+app.use(roadToStarters)
+
 
 // Déclarer constante dans laquelle on va rassembler les routes liées au tableau 'plats'
-const platsRoutes = require("./src/routes/plats_route");
+const roadToMainCourses = require("./src/routes/route_plats");
+// Utiliser les routes liées au tableau 'plats' du fichier carte.json
+app.use(roadToMainCourses)
+
 
 // Déclarer constante dans laquelle on va rassembler les routes liées au tableau 'desserts'
-const dessertsRoutes = require("./src/routes/desserts_route");
+const roadToDesserts = require("./src/routes/route_desserts");
+// Utiliser les routes liées au tableau 'desserts' du fichier carte.json
+app.use(roadToDesserts)
 
 // Déclarer constante dans laquelle on va rassembler les routes liées au tableau 'boissons'
-const boissonsRoutes = require("./src/routes/boissons_route");
+const roadToDrinks = require("./src/routes/route_boissons");
+// Utiliser les routes liées au tableau 'boissons' du fichier carte.json
+app.use(roadToDrinks)
 
 // Déclarer constante dans laquelle on va rassembler les routes liées au tableau 'tapas'
-const tapasRoutes = require("./src/routes/tapas_route");
+const roadToTapas = require("./src/routes/route_tapas");
+// Utiliser les routes liées au tableau 'tapas' du fichier carte.json
+app.use(roadToTapas)
 
 // Déclarer constante dans laquelle on va rassembler les routes liées au tableau 'vins'
-const vinsRoutes = require("./src/routes/vins_route");
-
-
-
-// Utiliser les routes liées au tableau 'entrees' du fichier carte.json
-app.use(entreesRoutes)
-
-// Utiliser les routes liées au tableau 'plats' du fichier carte.json
-app.use(platsRoutes)
-
-// Utiliser les routes liées au tableau 'desserts' du fichier carte.json
-app.use(dessertsRoutes)
-
-// Utiliser les routes liées au tableau 'boissons' du fichier carte.json
-app.use(boissonsRoutes)
-
-// Utiliser les routes liées au tableau 'tapas' du fichier carte.json
-app.use(tapasRoutes)
-
+const roadToWines = require("./src/routes/route_vins");
 // Utiliser les routes liées au tableau 'vins' du fichier carte.json
-app.use(vinsRoutes)
+app.use(roadToWines)
 
 
 // On exporte la constante du port choisi
